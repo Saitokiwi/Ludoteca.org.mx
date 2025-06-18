@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina.css">
+    <title> Datos del Alumno </title>
+</head>
+<body>
+    
+    <div class="menulateral1">
+    <a class="botonmenu1" href="Pag14.html"> Buscador de juegos </a>
+    <a class="botonmenu1" href="Pag15.html"> Préstamo de juegos </a>
+    <a class="botonmenu1" href="Pag16.html"> Datos del alumno </a>
+    </div>
+    
+    <div class="contenido"><h1> Datos del Alumno </h1></div>
+
+    <div class="caja"><h2> Datos Personales </h2></div>
+    
+    <div class="BotonesAccion">
+        <a href="#" class="Botonazo17"> Guardar </a>
+        <a href="Pag12.html" class="Botonazo19"> Volver </a> 
+        <a href="Pag1.html" class="Botonazo20"> Finalizar </a>       
+    </div> 
+
+    <label id="Grado"> (GRD): </label>
+    <select id="MiSelectGrado" onchange="MostrarSelection5()">
+    <option value=""> Selecciona una opción </option>
+    <option value="PI"> Primera Infancia </option>
+    <option value="PB"> Primaria baja </option>
+    <option value="PA"> Primaria alta </option>
+    <option value="S"> Secundaria </option>
+    <option value="MS"> Media Superior </option>
+    </select>
+
+<script>
+
+    function MostrarSelection5() {
+    const select = document.getElementById("MiSelectGrado");
+      const valorSeleccionado = select.value;
+
+      const Resultado5 = document.getElementById("Resultado5");
+      if (valorSeleccionado) {
+        Resultado5.textContent = `Has seleccionado: ${valorSeleccionado}`;
+      } else {
+        Resultado5.textContent = "Por favor, selecciona una opción.";
+      }
+    }
+
+</script>
+
+    <div class="Variable5">
+      <p id="Resultado5"></p>
+    </div>  
+
+
+    <label id="Grupo"> GRP: </label>
+    <select id="MiSelectGrupo" onchange="MostrarSelection6()">
+    <option value=""> Selecciona una opción </option>
+    <option value="PI"> Primera Infancia </option> 
+    <option value="M1"> M1 </option>
+    <option value="V1"> V1 </option>
+    <option value="V1.1"> V1.1 </option>
+    <option value="V2"> V2 </option>
+    <option value="V3"> V3 </option>
+    <option value="V4"> V4 </option>
+    <option value="V5"> V5 </option>
+    <option value="V5.1"> V5.1 </option>
+    <option value="V6"> V6 </option>
+    <option value="M5"> M5 </option>
+    <option value="V7"> Grupo 3 (V7) </option>
+    <option value="V7.1"> V7.1 </option>
+    <option value="V8"> V8 </option>
+    <option value="V9"> V9 </option>
+    <option value="M7"> M7 </option>
+    <option value="M10"> M10 </option>
+    <option value="V10"> V10 </option>
+    </select>
+
+<script>
+
+    function MostrarSelection6() {
+    const select = document.getElementById("MiSelectGrupo");
+      const valorSeleccionado = select.value;
+
+      const Resultado6 = document.getElementById("Resultado6");
+      if (valorSeleccionado) {
+        Resultado6.textContent = `Has seleccionado: ${valorSeleccionado}`;
+      } else {
+        Resultado6.textContent = "Por favor, selecciona una opción.";
+      }
+    }
+
+</script>
+
+    <div class="Variable6">
+      <p id="Resultado6"></p>
+    </div>  
+
+    <div class="Nombre"> Nombre(s): </div>
+    <input type="text" class="Clasezota" id="SeptimoInputazo">
+
+    <div class="Apellidos"> Apellidos: </div>
+    <input type="text" class="Clasezota" id="OctavoInputazo"> 
+
+</body>
+<script src="Programacion.java"> </script>
+</html>

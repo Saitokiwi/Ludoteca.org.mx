@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina.css">
+    <title> Buscador de Juegos </title>
+</head>
+<body>
+    
+    <div class="menulateral1">
+    <a class="botonmenu1" href="Pag14.html"> Buscador de juegos </a>
+    <a class="botonmenu1" href="Pag15.html"> Préstamo de juegos </a>
+    <a class="botonmenu1" href="Pag16.html"> Datos del alumno </a>
+    </div>
+    
+    <div class="contenido"><h1> Buscador de juegos </h1></div>
+
+    <div class="caja"><h2> Disponibilidad de juegos </h2></div>
+    
+      <div class="BotonesAccion">
+        <a href="#" class="Botonazo18"> Buscar </a>
+        <a href="Pag12.html" class="Botonazo19"> Volver </a>    
+        <a href="Pag15.html" class="Botonazo20"> Siguiente </a>
+      </div> 
+
+      <label id="Tipos"> Opción: </label>
+     <select id="MiSelectTipos" onchange="MostrarSelection3()">
+     <option value=""> Selecciona una opción </option>
+     <option value="Puzzles"> Puzzles </option>
+     <option value="Juegoestra"> Juegos de estrategia </option>
+     <option value="Juegosentre"> Juegos de entretenimiento </option>
+     <option value="JuegosCons"> Juegos de Construcción </option>
+     <option value="JuegosEdu"> Juegos Educativos </option>
+    </select>
+    
+<script>
+
+    function MostrarSelection3() {
+    const select = document.getElementById("MiSelectTipos");
+      const valorSeleccionado = select.value;
+
+      const Resultado3 = document.getElementById("Resultado3");
+      if (valorSeleccionado) {
+        Resultado3.textContent = `Has seleccionado: ${valorSeleccionado}`;
+      } else {
+        Resultado3.textContent = "Por favor, selecciona una opción.";
+      }
+    }
+
+</script>
+
+    <div class="Variable3">
+      <p id="Resultado3"></p>
+    </div>  
+    
+     <label id="Juegos"> Juego: </label>
+     <select id="MiSelectJuegos" onchange="MostrarSelection4()">
+     <option value=""> Selecciona una opción </option>
+     <option value="TGM"> Tangram </option>
+     <option value="BTF"> Battlefield </option>
+     <option value="AZ"> Ajedrez </option>
+     <option value="C4"> Conecta 4 </option>
+     <option value="NT"> Ninja Paw </option>
+     <option value="TG"> Taco Gato </option>
+     <option value="FTM"> Fantasma </option>
+     <option value="BP"> Bompipi </option>
+     <option value="LG"> Legos </option>
+     <option value="JG"> Jenga </option>
+    </select>
+  
+
+<script>
+
+    function MostrarSelection4() {
+    const select = document.getElementById("MiSelectJuegos");
+      const valorSeleccionado = select.value;
+
+      const Resultado4 = document.getElementById("Resultado4");
+      if (valorSeleccionado) {
+        Resultado4.textContent = `Has seleccionado: ${valorSeleccionado}`;
+      } else {
+        Resultado4.textContent = "Por favor, selecciona una opción.";
+      }
+    }
+
+</script>
+
+    <div class="Variable4">
+      <p id="Resultado4"></p>
+    </div>  
+
+    <div class="Disponibilidad1"> Disponibilidad: </div>
+    <input type="text" class="Clasezota" id="QuintoInputazo"> 
+
+    <div class="HoraEntre"> Hora de entrega: </div>
+    <input type="text" class="Clasezota" id="SextoInputazo"> 
+
+</body>
+<script src="Programacion.java"> </script>
+</html>

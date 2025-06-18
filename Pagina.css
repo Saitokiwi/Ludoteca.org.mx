@@ -1,0 +1,824 @@
+.titulazo, .TituloLibros, .GenLib{
+color: #278AB9;
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.texto {
+color: #278AB9;
+align-content: center;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.Botonazo1 {
+--bg: #000000;
+--hover-bg: #9dc5f3;
+--hover-text: #000000;
+position: relative;
+top: 0px;
+left: -20px;
+text-decoration: none;
+color: #fff;
+cursor: pointer;
+border: 1px solid var(--bg);
+border-radius: 100px;
+padding: 1.5em 5em;
+background: var(--bg);
+transition: 0.2s;
+margin: 25px;
+}
+
+.Botonazo1:hover{
+color: var(--hover-text);
+transform: translate(-0.25rem, -0.25rem);
+background: var(--hover-bg);
+box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.Botonazo1:active{
+transform: translate(0);
+box-shadow: none;
+}
+
+
+.Botonazo2{
+--bg: #000000;
+--hover-bg: #9dc5f3;
+--hover-text: #000000;
+position: relative;
+top: 0px;
+left:0px;
+text-decoration: none;
+color: #fff; 
+cursor: pointer;
+border: 1px solid var(--bg);
+border-radius: 100px;
+padding: 1.5em 5em;
+background: var(--bg);
+transition: 0.2s;
+margin: 2px;
+  
+}
+
+.Botonazo2:hover{
+color: var(--hover-text);
+background: var(--hover-bg);
+box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.Botonazo2:active{
+transform: translate(0);
+box-shadow: none;
+}
+
+
+.Botonazo3, .Botonazo6, .Botonazo9, .Botonazo12{
+--bg: #000000;
+--hover-bg: #9dc5f3;
+--hover-text: #000000;
+position: relative;
+top: 0px;
+left: 80px;
+text-decoration: none;
+color: #fff;
+cursor: pointer;
+border: 1px solid var(--bg);
+border-radius: 100px;
+padding: 1.5em 5em;
+background: var(--bg);
+transition: 0.2s;
+margin: 25px;
+}
+
+.Botonazo3:hover, .Botonazo6:hover, .Botonazo9:hover, .Botonazo12:hover{
+color: var(--hover-text);
+transform: translate(-0.25rem, -0.25rem);
+background: var(--hover-bg);
+box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.Botonazo3:active, .Botonazo6:active, .Botonazo9:active, .Botonazo12:active{
+transform: translate(0);
+box-shadow: none;
+}
+
+
+.Botonazo4, .Botonazo7, .Botonazo10, .Botonazo13 {
+--bg: #000000;
+--hover-bg: #9dc5f3;
+--hover-text: #000000;
+position: relative;
+top: 0px;
+left:110px;
+text-decoration: none;
+color: #fff; 
+cursor: pointer;
+border: 1px solid var(--bg);
+border-radius: 100px;
+padding: 1.5em 5em;
+background: var(--bg);
+transition: 0.2s;
+margin: 2px;
+  
+}
+
+.Botonazo4:hover, .Botonazo7:hover, .Botonazo10:hover, .Botonazo13:hover{
+color: var(--hover-text);
+background: var(--hover-bg);
+box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.Botonazo4:active, .Botonazo7:active, .Botonazo10:active, .Botonazo13:active{
+transform: translate(0);
+box-shadow: none;
+}
+
+.Botonazo5, .Botonazo8, .Botonazo11, .Botonazo14 {
+--bg: #000000;
+--hover-bg: #9dc5f3;
+--hover-text: #000000;
+position: relative;
+top: 350px;
+left:450px;
+text-decoration: none;
+color: #fff; 
+cursor: pointer;
+border: 1px solid var(--bg);
+border-radius: 100px;
+padding: 1.5em 5em;
+background: var(--bg);
+transition: 0.2s;
+margin: 2px;
+  
+}
+
+.Botonazo5:hover, .Botonazo8:hover, .Botonazo11:hover, .Botonazo14:hover{
+color: var(--hover-text);
+background: var(--hover-bg);
+box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.Botonazo5:active, .Botonazo8:active, .Botonazo11:active, .Botonazo14:active{
+transform: translate(0);
+box-shadow: none;
+}
+
+.Botonazo15{
+position: relative;
+top: -1424px;
+width: 50px;
+left: 1210px;
+background-color: transparent;
+border: 2px solid #d146c6;
+border-radius: 20px;
+padding: 5px 15px;
+text-decoration: none;
+color: #d146c6;
+font-weight: bold;
+cursor: pointer;
+}
+
+.Botonazo16{
+position: relative;
+top: -1424px;
+width: 50px;
+left: 1230px;
+background-color: transparent;
+border: 2px solid #d146c6;
+border-radius: 20px;
+padding: 5px 15px;
+text-decoration: none;
+color: #d146c6;
+font-weight: bold;
+cursor: pointer;
+}
+
+.Botonazo21{
+position: relative;
+top: -1424px;
+width: 50px;
+left: 1250px;
+background-color: transparent;
+border: 2px solid #d146c6;
+border-radius: 20px;
+padding: 5px 15px;
+text-decoration: none;
+color: #d146c6;
+font-weight: bold;
+cursor: pointer;
+}
+
+.Botonazo17, .Botonazo18{
+position: relative;
+top: -900px;
+width: 50px;
+left: 1210px;
+background-color: transparent;
+border: 2px solid #d146c6;
+border-radius: 20px;
+padding: 5px 15px;
+text-decoration: none;
+color: #d146c6;
+font-weight: bold;
+cursor: pointer;
+}
+
+.Botonazo19{
+position: relative;
+top: -900px;
+width: 50px;
+left: 1230px;
+background-color: transparent;
+border: 2px solid #d146c6;
+border-radius: 20px;
+padding: 5px 15px;
+text-decoration: none;
+color: #d146c6;
+font-weight: bold;
+cursor: pointer;
+}
+
+.Botonazo20{
+position: relative;
+top: -900px;
+width: 50px;
+left: 1250px;
+background-color: transparent;
+border: 2px solid #d146c6;
+border-radius: 20px;
+padding: 5px 15px;
+text-decoration: none;
+color: #d146c6;
+font-weight: bold;
+cursor: pointer;
+}
+
+.botonmenu, .botonmenu1 {
+background-color: #21a3dd;
+border: 5px solid #278AB9;
+border-radius: 30px;
+text-decoration: none;
+text-align: center;
+padding: 10px;
+position: relative;
+top:150px;
+width:100px;
+left:5px;
+font-weight: bold;
+color: #fff;
+}
+
+.contenido {
+position: relative;
+top:-900px;
+width:300px;
+left:890px;
+}
+
+h1 {
+color: #d146c6;
+text-align: center;
+}
+
+.caja {
+position: relative;
+top:-850px;
+width:1000px;
+left:520px;
+height:600px;
+border-radius: 50px;
+padding: 30px;
+border: 2px solid #a8e64a;
+}
+
+
+.Variable1, .Variable3, .Variable5 {
+position: relative;
+top: -1431px;
+width: 620px;
+height: 27px;
+left: 880px;
+color: #000000;
+background-color:transparent;
+border: 2px solid #d146c6;
+}
+
+.Variable2, .Variable4, .Variable6 {
+position: relative;
+top: -1427px;
+width: 620px;
+height: 27px;
+left: 880px;
+color: #000000;
+background-color:transparent;
+border: 2px solid #d146c6;
+}
+
+.Variable1, .Variable3, .Variable5{
+#Resultado1, #Resultado3, #Resultado5 {
+position: relative;
+top: -10px;
+width: 300px;
+height: 3000px;
+left: 7px;
+}
+}
+
+
+.Variable2, .Variable4, .Variable6{
+#Resultado2, #Resultado4, #Resultado6 {
+position: relative;
+top: -10px;
+width: 300px;
+height: 3000px;
+left: 7px;
+}
+}
+
+h2 {
+color: #d146c6;
+text-align: center;
+}
+
+/*select {
+position: relative;
+top:-1400px;
+width:200px;
+left:600px;
+padding: 5px;
+border-radius: 10px;
+border: 2px solid #d146c6;
+}*/
+
+#MiSelectGenero, #MiSelectTipos, #MiSelectGrado {
+position: relative;
+top:-1400px;
+width:200px;
+left:610px;
+padding: 5px;
+border-radius: 10px;
+border: 2px solid #d146c6;
+}
+
+#MiSelectAutor, #MiSelectJuegos, #MiSelectGrupo {
+position: relative;
+top:-1395px;
+width:200px;
+left:620px;
+padding: 5px;
+border-radius: 10px;
+border: 2px solid #d146c6;
+}
+
+input {
+position: relative;
+top:-1425px;
+width:394px;
+left:750px;
+padding: 5px;
+border-radius: 0px;
+border: 2px solid #d146c6;
+}
+
+#PrimerInputazo{
+position: relative;
+top: -1400px;
+left: 610px;
+width: 205px;
+right: 40px;
+}
+
+/*label {
+position: relative;
+top:-1400px;
+width:300px;
+left:600px;
+color: #d146c6;
+font-weight: bold;
+}*/
+
+#Genero, #Tipos, #Grado {
+position: relative;
+top:-1400px;
+width:300px;
+left:600px;
+color: #d146c6;
+font-weight: bold;
+}
+
+#Autor, #Juegos, #Grupo{
+position: relative;
+top:-1393px;
+width:300px;
+left:600px;
+color: #d146c6;
+font-weight: bold;
+}
+
+.NombreLibro, .Disponibilidad1, .Nombre, .HorasPres{
+position: relative;
+top:-1385px;
+width:300px;
+left:600px;
+color: #d146c6;
+font-weight: bold;
+}
+
+#SegundoInputazo, #QuintoInputazo, #NovenoInputazo {
+position: relative;
+top: -1410px;
+left: 730px;
+width: 760px;
+right: 40px;
+}
+
+#DecimoInputazo{
+position: relative;
+top: -1410px;
+left: 750px;
+width: 740px;
+right: 40px;
+}
+
+.Disponibilidad, .DiasPres, .HoraEntre{
+position: relative;
+top:-1372px;
+width:300px;
+left:600px;
+color: #d146c6;
+font-weight: bold;
+}
+
+#TerceroInputazo, #SextoInputazo, #SeptimoInputazo{
+position: relative;
+top: -1396px;
+left: 730px;
+width: 760px;
+right: 40px;
+}
+
+.FechaEntre, .Apellidos {
+position: relative;
+top:-1353px;
+width:300px;
+left:600px;
+color: #d146c6;
+font-weight: bold;
+}
+
+#CuartoInputazo, #OctavoInputazo{
+position: relative;
+top: -1377px;
+left: 730px;
+width: 760px;
+right: 40px;
+}
+
+.menulateral, .menulateral1 { 
+background-color: #90c145;
+position: relative;
+top:-10px;
+left: -20px;
+width: 200px;
+height: 950px;
+display: flex;
+flex-direction: column;
+gap: 200px;
+align-items: center;
+}
+
+.ListaJuegos, .ListaLibros{
+position: relative;
+top: -1350px;
+left: 600px;
+width: 200px;
+height: 950px;
+color: #d146c6;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by StealthWorm */ 
+.Volver, .BotonMA, .CuentosInf, .NovelasJuve, .CuentosJuve, .NovelasInf, .ActividadesDic, .GuiasEstu, .Enciclopedias, .Diccionario, .NovelasGraf, .MLR, .CienciaFic, .Fantasia, .LiteraturaClasi, .BiblioEsc, .Buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  overflow: hidden;
+  height: 3rem;
+  background-size: 300% 300%;
+  cursor: pointer;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+  border: double 4px transparent;
+  background-image: linear-gradient(#212121, #212121),
+    linear-gradient(
+      137.48deg,
+      #ffdb3b 10%,
+      #fe53bb 45%,
+      #8f51ea 67%,
+      #0044ff 87%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+#container-stars {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+}
+
+strong {
+  z-index: 2;
+  font-family: "Avalors Personal Use";
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 4px white;
+}
+
+#glow {
+  position: absolute;
+  display: flex;
+  width: 12rem;
+}
+
+.circle {
+  width: 100%;
+  height: 30px;
+  filter: blur(2rem);
+  animation: pulse_3011 4s infinite;
+  z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+  background: rgba(254, 83, 186, 0.636);
+}
+
+.circle:nth-of-type(2) {
+  background: rgba(142, 81, 234, 0.704);
+}
+
+.Volver:hover, .BotonMA:hover, .CuentosInf:hover, .NovelasJuve:hover, .CuentosJuve:hover, .NovelasInf:hover, .ActividadesDic:hover, .GuiasEstu:hover, .Enciclopedias:hover, .Diccionario:hover, .NovelasGraf:hover, .MLR:hover, .CienciaFic:hover, .Fantasia:hover, .LiteraturaClasi:hover, .BiblioEsc:hover, .Buscador:hover #container-stars {
+  z-index: 1;
+  background-color: #212121;
+}
+
+.Volver:hover, .BotonMA:hover, .CuentosInf:hover, .NovelasJuve:hover, .CuentosJuve:hover, .NovelasInf:hover, .ActividadesDic:hover, .GuiasEstu:hover, .Enciclopedias:hover, .Diccionario:hover, .NovelasGraf:hover, .MLR:hover, .CienciaFic:hover, .Fantasia:hover, .LiteraturaClasi:hover, .BiblioEsc:hover, .Buscador:hover {
+  transform: scale(1.1);
+}
+
+.Volver:active, .BotonMA:active, .CuentosInf:active, .NovelasJuve:active, .CuentosJuve:active, .NovelasInf:active, .ActividadesDic:active, .GuiasEstu:active, .Enciclopedias:active, .Diccionario:active, .NovelasGraf:active, .MLR:active, .CienciaFic:active, .Fantasia:active, .LiteraturaClasi:active, .BiblioEsc:active, .Buscador:active{
+  border: double 4px #fe53bb;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: none;
+}
+
+.Volver:active, .BotonMA:active, .CuentosInf:active, .NovelasJuve:active, .CuentosJuve:active, .NovelasInf:active, .ActividadesDic:active, .GuiasEstu:active, .Enciclopedias:active, .Diccionario:active, .NovelasGraf:active, .MLR:active, .CienciaFic:active, .Fantasia:active, .LiteraturaClasi:active, .BiblioEsc:active, .Buscador:active .circle {
+  background: #fe53bb;
+}
+
+#stars {
+  position: relative;
+  background: transparent;
+  width: 200rem;
+  height: 200rem;
+}
+
+#stars::after {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  animation: animStarRotate 90s linear infinite;
+}
+
+#stars::after {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+}
+
+#stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 170%;
+  height: 500%;
+  animation: animStar 60s linear infinite;
+}
+
+#stars::before {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+  opacity: 0.5;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-135rem);
+  }
+}
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse_3011 {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.BotonMA{
+    position: relative;
+    top: -450px;
+    left: 750px;
+    width: 300px;
+    height: 70px;
+}
+
+.CuentosInf{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    height: 70px;
+}
+
+.NovelasJuve{
+    position: relative;
+    top: -20px;
+    left: 400px;
+    width: 300px;
+    height: 70px;
+}
+
+.CuentosJuve{
+    position: relative;
+    top: -90px;
+    left: 750px;
+    width: 300px;
+    height: 70px;
+}
+
+.NovelasInf{
+    position: relative;
+    top: -160px;
+    left: 1100px;
+    width: 300px;
+    height: 70px;
+}
+
+.ActividadesDic{
+    position: relative;
+    top: -230px;
+    left: 1450px;
+    width: 300px;
+    height: 70px;
+}
+
+.GuiasEstu{
+    position: relative;
+    top: -150px;
+    left: 50px;
+    width: 300px;
+    height: 70px;
+}
+
+.Enciclopedias{
+    position: relative;
+    top: -220px;
+    left: 400px;
+    width: 300px;
+    height: 70px;
+}
+
+.Diccionario{
+    position: relative;
+    top: -290px;
+    left: 750px;
+    width: 300px;
+    height: 70px;
+}
+
+.NovelasGraf{
+    position: relative;
+    top: -360px;
+    left: 1100px;
+    width: 300px;
+    height: 70px;
+}
+
+.MLR{
+    position: relative;
+    top: -430px;
+    left: 1450px;
+    width: 300px;
+    height: 70px;
+}
+
+.CienciaFic{
+    position: relative;
+    top: -350px;
+    left: 50px;
+    width: 300px;
+    height: 70px;
+}
+
+.Fantasia{
+    position: relative;
+    top: -420px;
+    left: 400px;
+    width: 300px;
+    height: 70px;
+}
+
+.LiteraturaClasi{
+    position: relative;
+    top: -490px;
+    left: 750px;
+    width: 300px;
+    height: 70px;
+}
+
+.BiblioEsc{
+    position: relative;
+    top: -560px;
+    left: 1100px;
+    width: 300px;
+    height: 70px;
+}
+
+.Buscador{
+    position: relative;
+    top: -630px;
+    left: 1450px;
+    width: 300px;
+    height: 70px;
+}

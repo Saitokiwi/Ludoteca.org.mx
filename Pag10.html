@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pagina.css">
+    <title> Prétamos de Libros </title>
+</head>
+<body>
+
+    <div class="menulateral">
+      <a class="botonmenu" href="Pag9.html"> Buscador de libros </a>
+      <a class="botonmenu" href="Pag10.html"> Préstamo de libros </a>
+      <a class="botonmenu" href="Pag11.html"> Datos del alumno </a>
+    </div>
+
+    <div class="contenido"><h1> Préstamo de libros  </h1></div>
+
+    <div class="caja"><h2> Datos del libro </h2></div>
+  
+ <div class="BotonesAccion">
+        <a href="#" class="Botonazo18"> Buscar </a>
+        <a href="Pag12.html" class="Botonazo19"> Volver </a>  
+        <a href="Pag11.html" class="Botonazo20"> Siguiente </a>      
+      </div> 
+    
+    <label id="Genero"> Género: </label>
+    <select id="MiSelectGenero" onchange="MostrarSelection1()">
+    <option value=""> Selecciona una opción </option>
+    <option value="Academico"> Académico </option>
+    <option value="Cuentos"> Cuentos </option>
+    <option value="Enciclopedias"> Enciclopedias </option>
+    <option value="NovelasJu"> Novelas júveniles </option>
+    <option value="ActiviDi"> Actividades Didácticas </option>
+    <option value="Leyendas"> Leyendas </option>
+    <option value="GuiasEs"> Guías de Estudio </option>
+    <option value="CianeciaFi"> Ciencia Ficción </option>
+    <option value="Fantasia"> Fantasía </option>
+    <option value="LecturasCla"> Literatura Clásica </option>
+    <option value="Mitos"> Mitos </option>
+    <option value="Refranes"> Refranes </option>
+    <option value="Diccionarios"> Diccionarios Español e Ingles </option>
+    <option value="NovelasGra"> Novelas gráficas </option>
+    <option value="NovelasInfa"> Novelas Infantiles </option>
+    <option value="BibliotecaEs"> Biblioteca Escolar </option>
+    </select>
+
+<script>
+
+    function MostrarSelection1() {
+    const select = document.getElementById("MiSelectGenero");
+      const valorSeleccionado = select.value;
+
+      const Resultado1 = document.getElementById("Resultado1");
+      if (valorSeleccionado) {
+        Resultado1.textContent = `Has seleccionado: ${valorSeleccionado}`;
+      } else {
+        Resultado1.textContent = "Por favor, selecciona una opción.";
+      }
+    }
+
+</script>
+
+    <div class="Variable1">
+      <p id="Resultado1"></p>
+    </div>  
+
+     <label id="Autor"> Autor: </label>
+    <select id="MiSelectAutor" onchange="MostrarSelection2()">
+    <option value=""> Selecciona una opción </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    <option value="">  </option>
+    </select>
+
+<script>
+
+    function MostrarSelection2() {
+    const select = document.getElementById("MiSelectAutor");
+      const valorSeleccionado = select.value;
+
+      const Resultado2 = document.getElementById("Resultado2");
+      if (valorSeleccionado) {
+        Resultado2.textContent = `Has seleccionado: ${valorSeleccionado}`;
+      } else {
+        Resultado2.textContent = "Por favor, selecciona una opción.";
+      }
+    }
+
+</script> 
+
+    <div class="Variable2">
+      <p id="Resultado2"></p>
+    </div>  
+    
+    <div class="NombreLibro"> Nombre del libro: </div>
+    <input type="text" class="Clasezota" id="NovenoInputazo">
+
+    <div class="DiasPres"> Dias de Préstamo: </div>
+    <input type="datetime-local" class="Clasezota" id="TerceroInputazo"> 
+      
+</body>
+<script src="Programacion.java"> </script>
+</html>
